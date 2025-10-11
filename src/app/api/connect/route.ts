@@ -90,18 +90,17 @@ Social: ${social}
 
 ---
 
-📢 Thông Báo Dành Cho Người Mẫu – Underground Runway Rave
+We know you’re all buzzing for this 🔥  
+The Gothic, Punk, Emo & wild looks you’ve sent in…  
+You all look insane  
 
-Chúng tôi đã nhận được hơn 300 đơn đăng ký từ người mẫu, và để đảm bảo tiêu chuẩn sáng tạo của sự kiện, tất cả người mẫu tham gia cần tự chuẩn bị những bộ trang phục/“look” độc đáo, táo bạo và phù hợp với tinh thần Rave.
+We can’t wait to see you at 8 PM sharp — till late  
 
-Nếu muốn, bạn có thể tham khảo hoặc liên hệ để mượn trang phục từ các bộ sưu tập tốt nghiệp trước đây để phối đồ hoặc hợp tác.
+If you’re not here tonight…  
+You’ll hear about it tomorrow  
 
-Lưu ý:
-✅ Hãy đến trong trạng thái sẵn sàng hoàn toàn — Sự kiện không có phòng thay đồ hoặc khu vực chuẩn bị hậu trường.
-👗 Nếu bạn muốn tham gia sàn diễn, hãy gửi hình ảnh look/trang phục của bạn qua DM để ban tổ chức xem xét và ưu tiên xác nhận suất diễn.
-💸 Đây là sự kiện phi thương mại – chúng tôi không thu bất kỳ khoản phí nào từ người tham gia.
-
-Chúng tôi đang tạo nên một không gian thời trang ngầm, đầy năng lượng — hãy mang đến những bộ trang phục “điên rồ” và thể hiện cá tính thời trang mạnh mẽ nhất của bạn!
+📍 Location details are in here:  
+41-43 Nam Ky Khoi Nghia, D1 Ho Chi Minh City, Vietnam
 
 Please take a screenshot and tag us in your story to complete the process.
 Our team will review your form and connect with you for your role.
@@ -135,24 +134,18 @@ UGRFR Team
     <p style="margin: 8px 0; color: #fff;"><strong>Social:</strong> ${social}</p>
   </div>
 
-  <div style="background: rgba(255,255,255,0.03); border-radius: 12px; padding: 20px; margin: 30px 0;">
-    <h3 style="color: #fff; margin-bottom: 10px;">📢 Thông Báo Dành Cho Người Mẫu – Underground Runway Rave</h3>
+  <div style="margin-top: 40px; padding: 20px; background: rgba(255,255,255,0.05); border-radius: 12px;">
     <p style="color: #ccc; line-height: 1.6;">
-      Chúng tôi đã nhận được hơn 300 đơn đăng ký từ người mẫu, và để đảm bảo tiêu chuẩn sáng tạo của sự kiện, tất cả người mẫu tham gia cần tự chuẩn bị những bộ trang phục/“look” độc đáo, táo bạo và phù hợp với tinh thần Rave.
+      We know you’re all buzzing for this 🔥<br/>
+      The Gothic, Punk, Emo & wild looks you’ve sent in… you all look insane.<br/><br/>
+      We can’t wait to see you at <strong>8 PM sharp — till late</strong>.<br/><br/>
+      If you’re not here tonight… you’ll hear about it tomorrow 😉
     </p>
-    <p style="color: #ccc; line-height: 1.6;">
-      Nếu muốn, bạn có thể tham khảo hoặc liên hệ để mượn trang phục từ các bộ sưu tập tốt nghiệp trước đây để phối đồ hoặc hợp tác.
-    </p>
-    <ul style="color: #ccc; line-height: 1.6;">
-      <li>✅ Hãy đến trong trạng thái sẵn sàng hoàn toàn — Sự kiện không có phòng thay đồ hoặc khu vực chuẩn bị hậu trường.</li>
-      <li>👗 Nếu bạn muốn tham gia sàn diễn, hãy gửi hình ảnh look/trang phục của bạn qua DM để ban tổ chức xem xét và ưu tiên xác nhận suất diễn.</li>
-      <li>💸 Đây là sự kiện phi thương mại – chúng tôi không thu bất kỳ khoản phí nào từ người tham gia.</li>
-    </ul>
-    <p style="color: #ccc; line-height: 1.6;">
-      Chúng tôi đang tạo nên một không gian thời trang ngầm, đầy năng lượng — hãy mang đến những bộ trang phục “điên rồ” và thể hiện cá tính thời trang mạnh mẽ nhất của bạn!
+
+    <p style="margin-top: 20px; color: #fff;">
+      📍 <strong>Location:</strong> 41-43 Nam Ky Khoi Nghia, D1 Ho Chi Minh City, Vietnam
     </p>
   </div>
-
   <p style="line-height: 1.6; color: #ccc; margin-top: 30px;">
     Please take a screenshot and tag us in your story to complete the process.
   </p>

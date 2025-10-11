@@ -848,6 +848,54 @@ function UGRFRFormMobile({
 
                             {/* --- Card 3: Role + Questions --- */}
                             {i === 2 && (
+                                <form className="space-y-5">
+                                    <div className="card-title mb-1">
+                                        <h2 className="text-foreground/80 text-sm tracking-widest uppercase">
+                                            Finalize
+                                        </h2>
+                                    </div>
+
+                                    <RoleSelect
+                                        value={formData.role}
+                                        onChange={(role: string) => setFormData({ ...formData, role })}
+                                    />
+
+                                    <div className="space-y-1">
+                                        <label className="block text-foreground/80 text-xs font-medium uppercase">
+                                            Questions
+                                        </label>
+                                        <textarea
+                                            name="questions"
+                                            value={formData.questions}
+                                            onChange={handleChange}
+                                            rows={2}
+                                            className="w-full bg-white/30 pl-2  border-b-2 border-border py-3 text-foreground placeholder:text-foreground/40 focus:outline-none focus:border-foreground/60 transition-all duration-500 resize-none"
+                                            placeholder="Any questions?"
+                                        />
+                                    </div>
+
+                                    <button
+                                        type="submit"
+                                        disabled={isSubmitting}
+                                        className="w-full bg-primary text-primary-foreground py-4 rounded-full font-light text-sm tracking-widest uppercase hover:opacity-90 transition-all duration-500 disabled:opacity-50 disabled:cursor-not-allowed mt-6"
+                                    >
+                                        {isSubmitting ? "Submitting..." : "Submit"}
+                                    </button>
+
+                                    {submitStatus === "success" && (
+                                        <div className="text-center text-foreground/70 text-sm animate-fade-in">
+                                            Registration submitted. Check your email.
+                                        </div>
+                                    )}
+                                    {submitStatus === "error" && (
+                                        <div className="text-center text-destructive/80 text-sm animate-fade-in">
+                                            Error. Please try again.
+                                        </div>
+                                    )}
+                                </form>
+                            )}
+                            {/* --- Card 3: Role + Questions --- */}
+                            {i === 3 && (
                                 <form onSubmit={handleSubmit} className="space-y-5">
                                     <div className="card-title mb-1">
                                         <h2 className="text-foreground/80 text-sm tracking-widest uppercase">
