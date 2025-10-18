@@ -433,7 +433,7 @@ export default function UGRFRForm(): JSX.Element {
                                 <button
                                     ref={buttonRef}
                                     type="submit"
-                                    disabled={isSubmitting}
+                                    disabled
                                     className="w-full bg-black text-white py-4 rounded-full font-light text-sm tracking-widest uppercase hover:bg-black/90 transition-all duration-500 disabled:opacity-50 disabled:cursor-not-allowed mt-8"
                                 >
                                     {isSubmitting ? "Submitting..." : "Submit"}
@@ -525,6 +525,7 @@ function RoleSelect({
                 <button
                     ref={buttonRef}
                     type="button"
+                    disabled
                     onClick={() => setOpen(!open)}
                     className="w-full flex justify-between items-center bg-white/30 pl-2 border-b-2 border-black/10 px-0 py-3 text-black text-left focus:outline-none focus:border-black/40 transition-all duration-500"
                 >
@@ -924,7 +925,7 @@ function UGRFRFormMobile({
 
                                     <button
                                         type="submit"
-                                        disabled={isSubmitting}
+                                        disabled
                                         className="w-full bg-primary text-primary-foreground py-4 rounded-full font-light text-sm tracking-widest uppercase hover:opacity-90 transition-all duration-500 disabled:opacity-50 disabled:cursor-not-allowed mt-6"
                                     >
                                         {isSubmitting ? "Submitting..." : "Submit"}
